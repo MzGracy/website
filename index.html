@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+        }
+        
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to my Simple Website</h1>
+    <p>This is a simple website created using HTML, CSS, and JavaScript.</p>
+    
+    <button class="button" onclick="showMessage()">Click me</button>
+    
+    <script>
+        function showMessage() {
+            alert('Hello, world!');
+        }
+    </script>
+</body>
+</html>
